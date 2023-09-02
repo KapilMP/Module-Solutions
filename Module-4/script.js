@@ -6,9 +6,9 @@ for (let i = 0; i < names.length; i++) {
   var firstLetter = names[i].charAt(0);//index one of the given values of the array.
 
   if (firstLetter === 'j' || firstLetter === "J") {
-    console.log("GoodBye " + names[i]);
+    byeSpeaker(names[i]);
   } else {
-    console.log("Hello " + names[i]);
+    helloSpeaker(names[i]);
   }
 }
 

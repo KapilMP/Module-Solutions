@@ -37,13 +37,16 @@ h2{
 #myNavbar ul li a {
 	color: black;
 }
-.navbar-header, .navbar-header a{
-font-size: 30px;	
+.navbar-brand, .navbar-brand a{
+font-size: 30px;
+float:none;
+
 }
-.navbar-header a{
+.navbar-brand a{
 	color:black;
+
 }
-.navbar-header a:hover{
+.navbar-brand a:hover{
 	opacity: 50%;
 	text-decoration: none;
 }
